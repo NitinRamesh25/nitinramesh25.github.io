@@ -20,6 +20,7 @@ nav{
 .section-container{
     overflow-y: scroll;
     height: calc(100vh - var(--nav-bar-height));
+    position: relative;
 }
 
 section {
