@@ -8,6 +8,7 @@
 
     <link href="./styles/styles.css" rel="stylesheet" />
     <link href="./styles/about-me.css" rel="stylesheet" />
+    <link href="./styles/skills.css" rel="stylesheet" />
 
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,6 +25,9 @@
 
     <!--Fontawesome Icons-->
     <script src="https://kit.fontawesome.com/7e75923607.js" crossorigin="anonymous"></script>
+
+    <!--Devicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 </head>
 
 <body>
@@ -62,10 +66,10 @@
     </nav>
 
     <div class="section-container" data-bs-spy="scroll" data-bs-target="#resume-navbar" data-bs-offset="0" tabindex="0">
-        <section id="about-me" class="container">
+        <section id="about-me">
             <img src="images/photo/nitin.jpg" alt="" id="profile-photo">
 
-            <h1 id="job-title" class="">Full Stack Developer @Siemens</h1>
+            <h1 id="job-title" class="title-underline">Full Stack Developer @Siemens</h1>
 
             <section id="interests">
                 <ul>
@@ -87,7 +91,65 @@
             </section>
         </section>
 
-        <section id="skills">skills</section>
+        <section id="skills">
+            <h1 class="title-underline">Skills</h1>
+
+            <section id="skill-list">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <h2>Programming Languages</h2>
+
+                        <div><i class="devicon-cplusplus-line"></i> C++</div>
+                        <div><i class="devicon-javascript-plain colored"></i> Javascript</div>
+                        <div><i class="devicon-html5-plain colored"></i> HTML</div>
+                        <div><i class="devicon-css3-plain colored"></i> CSS</div>
+                        <div><i class="devicon-python-plain colored"></i> Python</div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2>Libraries & Frameworks</h2>
+
+                        <div><i class="devicon-nodejs-plain colored"></i> Node.js</div>
+                        <div><i class="devicon-nodejs-plain-wordmark colored"></i> Express.js</div>
+                        <div><i class="devicon-angularjs-plain colored"></i> Angular</div>
+                        <div><i class="devicon-react-original colored"></i> React.js</div>
+                        <div><i class="devicon-qt-original colored"></i> Qt</div>
+                        <div><i class="devicon-flask-original"></i> Flask</div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <h2>Tools</h2>
+                        
+                        <div><i class="devicon-docker-plain colored"></i> Docker</div>
+                        <div><i class="devicon-git-plain colored"></i> Git</div>
+                        <div><i class="devicon-visualstudio-plain colored"></i> TFS</div>
+                        <div> <i class="devicon-heroku-plain colored"></i> Heroku</div>
+                        <div><i class="devicon-amazonwebservices-original colored"></i> AWS</div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2>Communication Protocols</h2>
+
+                        <ul>
+                            <li>REST</li>
+                            <li>Websocket</li>
+                            <li>MQTT</li>
+                            <li>gRPC</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+        </section>
         <section id="experience">experience</section>
         <section id="projects">projects</section>
         <section id="awards">awards</section>
