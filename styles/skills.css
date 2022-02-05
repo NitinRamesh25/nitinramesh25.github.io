@@ -11,4 +11,48 @@
   padding: 0.5rem 0.5rem;
   margin: 0 20vw;
   text-align: center;
+  text-transform: uppercase;
+}
+
+#skill-list {
+  padding: 1rem 2rem;
+}
+
+#skill-list .skill-column{
+  margin-bottom: 1rem;
+}
+
+#skill-list h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.skill-category-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill {
+  height: 2rem;
+  width: 50%;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  #skill-list .skill-column{
+    margin-bottom: 5rem;
+  }
+  
+  #skill-list h3 {
+    text-align: left;
+    padding: 0.5rem 0;
+  }
+
+  .skill {
+    font-size: 1.5rem;
+    height: auto;
+    padding: 0.5rem 0;
+  }
 }
