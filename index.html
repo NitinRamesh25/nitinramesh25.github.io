@@ -8,6 +8,7 @@
 
     <link href="./styles/styles.css" rel="stylesheet" />
     <link href="./styles/about-me.css" rel="stylesheet" />
+    <link href="./styles/skills.css" rel="stylesheet" />
 
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,6 +25,9 @@
 
     <!--Fontawesome Icons-->
     <script src="https://kit.fontawesome.com/7e75923607.js" crossorigin="anonymous"></script>
+
+    <!--Devicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 </head>
 
 <body>
@@ -62,10 +66,10 @@
     </nav>
 
     <div class="section-container" data-bs-spy="scroll" data-bs-target="#resume-navbar" data-bs-offset="0" tabindex="0">
-        <section id="about-me" class="container">
+        <section id="about-me">
             <img src="images/photo/nitin.jpg" alt="" id="profile-photo">
 
-            <h1 id="job-title" class="">Full Stack Developer @Siemens</h1>
+            <h1 id="job-title" class="title-underline">Full Stack Developer @Siemens</h1>
 
             <section id="interests">
                 <ul>
@@ -87,7 +91,75 @@
             </section>
         </section>
 
-        <section id="skills">skills</section>
+        <section id="skills">
+            <h1 class="title-underline">Skills</h1>
+
+            <section id="skill-list">
+
+                <div class="row">
+
+                    <div class="col-md-6 skill-column">
+                        <h3>Languages</h3>
+
+                        <div class="skill-category-list">
+                            <div class="skill"><i class="devicon-javascript-plain colored"></i> Javascript</div>
+                            <div class="skill"><i class="devicon-typescript-plain colored"></i> Typescript</div>
+                            <div class="skill"><i class="devicon-html5-plain colored"></i> HTML</div>
+                            <div class="skill"><i class="devicon-css3-plain colored"></i> CSS</div>
+                            <div class="skill"><i class="devicon-cplusplus-line"></i> C++</div>
+                            <div class="skill"><i class="devicon-python-plain colored"></i> Python</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 skill-column">
+                        <h3>Frameworks</h3>
+
+                        <div class="skill-category-list">
+                            <div class="skill"><i class="devicon-nodejs-plain colored"></i> Node.js</div>
+                            <div class="skill"><i class="devicon-express-original"></i> Express.js</div>
+                            <div class="skill"><i class="devicon-angularjs-plain colored"></i> Angular</div>
+                            <div class="skill"><i class="devicon-react-original colored"></i> React.js</div>
+                            <div class="skill"><i class="devicon-materialui-plain colored"></i> Material UI</div>
+                            <div class="skill"><i class="devicon-qt-original colored"></i> Qt</div>
+                            <div class="skill"><i class="devicon-flask-original"></i> Flask</div>
+                            <div class="skill"> <i class="devicon-cucumber-plain colored"></i> Cucumber</div>
+                            <div class="skill"><i class="devicon-tensorflow-original colored"></i> Tensorflow</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6 skill-column">
+                        <h3>Tools</h3>
+
+                        <div class="skill-category-list">
+                            <div class="skill"><i class="devicon-docker-plain colored"></i> Docker</div>
+                            <div class="skill"><i class="devicon-git-plain colored"></i> Git</div>
+                            <div class="skill"><i class="devicon-visualstudio-plain colored"></i> TFS</div>
+                            <div class="skill"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</div>
+                            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" style="width: 1.5rem; height: 1.5rem;"/> CMake</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 skill-column">
+                        <h3>Protocols</h3>
+
+                        <div class="skill-category-list">
+                            <div class="skill"><i class="devicon-devicon-plain"></i> REST API</div>
+                            <div class="skill"><i class="devicon-socketio-original"></i> Websocket</div>
+                            <div class="skill"><i class="fas fa-bolt"></i> MQTT</div>
+                            <div class="skill"><i class="fab fa-cloudscale"></i> gRPC</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+        </section>
         <section id="experience">experience</section>
         <section id="projects">projects</section>
         <section id="awards">awards</section>

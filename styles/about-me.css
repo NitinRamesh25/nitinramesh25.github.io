@@ -5,6 +5,8 @@
   gap: 1rem;
 
   padding-top: 2rem;
+  background-color: var(--section-bg-color-primary);
+  color: var(--section-color-primary);
 }
 
 #profile-photo {
@@ -17,21 +19,24 @@
 
 #job-title {
   font-size: 1.3rem;
+  padding: 0.5rem;
+  margin-bottom: 0;
 }
 
 #interests {
-    height: auto;
+  height: auto;
+  width: auto;
 }
 
 #interests ul li {
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 #links {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }

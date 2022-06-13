@@ -1,28 +1,43 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
-    --nav-bar-height: 56px;
+  --nav-bar-height: 56px;
+  --section-bg-color-primary: white;
+  --section-bg-color-secondary: #1a1e23;
+  --section-color-primary: black;
+  --section-color-secondary: white;
+  --border-gradient1: linear-gradient(to left, #743ad5, #d53a9d);
 }
 
 body {
-    overflow: hidden;
-    padding-top: var(--nav-bar-height); /*Default navbar height. Done to avoid fixed navbar to overlap page content*/
+  overflow: hidden;
+
+  /*Default navbar height. Done to avoid fixed navbar to overlap page content*/
+  padding-top: var(--nav-bar-height);
 }
 
-nav{
-    line-height: var(--bs-body-line-height);
+nav {
+  line-height: var(--bs-body-line-height);
 }
 
-.section-container{
-    overflow-y: scroll;
-    height: calc(100vh - var(--nav-bar-height));
-    position: relative;
+.section-container {
+  overflow-y: scroll;
+  height: calc(100vh - var(--nav-bar-height));
+  width: 100vw;
+  position: relative;
 }
 
 section {
-    height: 100%;
+  height: 100%;
+}
+
+.title-underline {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+  border-image-source: var(--border-gradient1);
 }
