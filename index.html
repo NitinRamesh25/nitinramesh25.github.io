@@ -9,6 +9,7 @@
     <link href="./styles/styles.css" rel="stylesheet" />
     <link href="./styles/about-me.css" rel="stylesheet" />
     <link href="./styles/skills.css" rel="stylesheet" />
+    <link href="./styles/experience.css" rel="stylesheet" />
 
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -69,7 +70,7 @@
         <section id="about-me">
             <img src="images/photo/nitin.jpg" alt="" id="profile-photo">
 
-            <h1 id="job-title" class="title-underline">Full Stack Developer @Siemens</h1>
+            <h1 id="job-title" class="title-underline">Full Stack Developer @SAP Labs</h1>
 
             <section id="interests">
                 <ul>
@@ -122,7 +123,7 @@
                             <div class="skill"><i class="devicon-materialui-plain colored"></i> Material UI</div>
                             <div class="skill"><i class="devicon-qt-original colored"></i> Qt</div>
                             <div class="skill"><i class="devicon-flask-original"></i> Flask</div>
-                            <div class="skill"> <i class="devicon-cucumber-plain colored"></i> Cucumber</div>
+                            <div class="skill"><i class="devicon-cucumber-plain colored"></i> Cucumber</div>
                             <div class="skill"><i class="devicon-tensorflow-original colored"></i> Tensorflow</div>
                         </div>
                     </div>
@@ -139,7 +140,9 @@
                             <div class="skill"><i class="devicon-git-plain colored"></i> Git</div>
                             <div class="skill"><i class="devicon-visualstudio-plain colored"></i> TFS</div>
                             <div class="skill"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</div>
-                            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" style="width: 1.5rem; height: 1.5rem;"/> CMake</div>
+                            <div class="skill"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg"
+                                    style="width: 1.5rem; height: 1.5rem;" /> CMake</div>
                         </div>
                     </div>
 
@@ -160,11 +163,31 @@
 
 
         </section>
-        <section id="experience">experience</section>
+
+        <section id="experience">
+            <h1 class="title-underline">Experience</h1>
+
+            <div id="experience-container">
+                <div id="left-slide-arrow" class="slide-arrow-container">
+                    <i class="fa fa-arrow-left slide-arrow"></i>
+                </div>
+
+                <section id="experience-list"></section>
+
+                <div id="right-slide-arrow" class="slide-arrow-container">
+                    <i class="fa fa-arrow-right slide-arrow"></i>
+                </div>
+
+            </div>
+
+        </section>
+
         <section id="projects">projects</section>
         <section id="awards">awards</section>
         <section id="education">education</section>
     </div>
+
+    <script src="./scripts/experience.js"></script>
 </body>
 
 </html>
