@@ -13,7 +13,13 @@ const experiences = [
     companyName: "SAP Labs",
     roleInformation:
       "6 June 2022 - Present | Software Engineer | Bangalore, India",
-    responsibilties: ["Contributed to Central Business Configuration (CBC)."],
+    responsibilties: [
+      "As a mid-level software engineer I contributed to the development of the Central Business Configuration (CBC) product line.",
+      "Ramped up in a short period of time and started contributing to the Authoring module in CBC.",
+      "Got exposure to Kubernetes for deploying webservices.",
+      "Got hands on experience configuring Drone CI/CD pipeline.",
+      "Introduced good development standards and clean coding practices to the team."
+    ],
   },
   {
     companyName: "Siemens",

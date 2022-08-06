@@ -12,6 +12,15 @@
  */
 const projects = [
   {
+    name: "CBC Authoring",
+    details: [
+      "Development tech-stack used are NodeJS, Typescript and Golang.",
+      "Built VSCode extension with NodeJS for Content Authoring.",
+      "Developed CLI for Authoring template (JSON) creation, validation, packaging and deployment for Content Authoring.",
+      "Built REST web services for GIT and artifactory repository creation."
+    ]
+  },
+  {
     name: "Edge App: Plc Configuration",
     details: [
       "Delivered a SAAS app for the edge ecosystem that is used for configuring Omron, Allen Bradley, Mitsubishi PLC. Using a common configurator for all PLC reduced the app size on disk by 50%.",
